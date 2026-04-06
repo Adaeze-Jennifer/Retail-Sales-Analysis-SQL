@@ -46,11 +46,11 @@ Additionally, the 'sp_help' command was utilised to verify the table schema and 
 ![Data Overview](Images/01_data_overview.png)
 
 ### 2. Total Sales Performance
-The business generated total sales of $2,297,200.65 against a total profit of $286,396.59 across all orders — a profit margin of approximately 12.5%. While the revenue figure is strong, the margin indicates that a significant portion of sales value is absorbed by costs, making profitability at the category and sub-category level a more useful lens for strategic decisions than total sales alone.
+The business generated total sales of $2,297,200.65 against a total profit of $286,396.59 across all orders with a profit margin of approximately 12.5%. While the revenue figure is strong, the margin indicates that a significant portion of sales value is absorbed by costs, making profitability at the category and sub-category level a more useful lens for strategic decisions than total sales alone.
 ![Total Sales Performance](Images/02_total_sales_performance.png)
 
 ### 3. Regional Analysis
-All four regions were ranked in descending order, extending beyond the single result the brief required to enable direct comparison. West leads with $725,457.75 in total sales, followed by East at $678,781.30, Central at $501,239.77, and South at $391,721.83. The gap between West and South is substantial at over $333,000 — suggesting that either South is an underserved market with growth potential, or that the product mix resonates more strongly in western markets. This warrants further investigation before any regional resource allocation decisions are made.
+All four regions were ranked in descending order, extending beyond the single result the brief required to enable direct comparison. West leads with $725,457.75 in total sales, followed by East at $678,781.30, Central at $501,239.77, and South at $391,721.83. The gap between West and South is substantial at over $333,000  suggesting that either South is an underserved market with growth potential, or that the product mix resonates more strongly in western markets. This warrants further investigation before any regional resource allocation decisions are made.
 ![Regional Analysis](Images/03_regional_sales_performance.png)
 
 ### 4. Product Category Performance
@@ -59,15 +59,15 @@ Technology is the highest-grossing category at $836,154.02 in sales and $145,455
 
 ### 5. Customer Segment Analysis
 Average sales per order are closely clustered across all three segments: Home Office leads at $240.97, Corporate follows at $233.82, and Consumer sits at $223.73. The narrow spread suggests that purchasing behaviour is relatively consistent across segments, with no single group dramatically outspending the others on a per-order basis. However, differences in order frequency and total volume across segments would require a further query to fully assess.
-![Customer Segment Analysis](Images/05_customer_segment_analysid.png)
+![Customer Segment Analysis](Images/05_customer_segment_analysis.png)
 
 ### 6. High-Value Orders
 Filtering for orders above $1,000 and sorting in descending order surfaces the business's most commercially significant transactions. The top result is a Technology — Machines order by Sean Miller (Home Office segment, South region) valued at $22,638.48. The visible top ten are overwhelmingly Technology orders, with Copiers and Machines dominating and Binders appearing as the only Office Supplies sub-category in the high-value tier. This confirms that Technology drives not just the highest sales volume but also the largest individual transactions.
 ![High-Value Orders](Images/06_high_value_orders.png)
 
 ### 7. Top Performing Sub-Categories
-The five most profitable sub-categories are Copiers at $55,617.88, Phones at $44,516.16, Accessories at $41,936.78, Paper at $34,053.10, and Binders at $30,221.48. All five clear the $30,000 profit mark. Copiers alone account for nearly 20% of total business profit despite being a single sub-category — a concentration that makes their consistent performance critical to the business's overall financial health.
-![Top-Performing Sub-Category](Images/07_top_peforming_sub_category.png)
+The five most profitable sub-categories are Copiers at $55,617.88, Phones at $44,516.16, Accessories at $41,936.78, Paper at $34,053.10, and Binders at $30,221.48. All five clear the $30,000 profit mark. Copiers alone account for nearly 20% of total business profit despite being a single sub-category, a concentration that makes their consistent performance critical to the business's overall financial health.
+![Top-Performing Sub-Category](Images/07_top_peforming_sub-category.png)
 
 ### 8. Profitability Check
 All three product categories clear the $10,000 profit threshold: Technology at $145,455.54, Office Supplies at $122,489.95, and Furniture at $18,451.10. While all three pass the filter, the Furniture result sits at barely one-eighth of Technology's profit despite comparable sales volume. Furniture technically qualifies as profitable but is the weakest performer by a significant margin and should not be treated on equal footing with the other two categories in strategic planning.
