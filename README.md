@@ -67,7 +67,7 @@ Filtering for orders above $1,000 and sorting in descending order surfaces the b
 
 ### 7. Top Performing Sub-Categories
 The five most profitable sub-categories are Copiers at $55,617.88, Phones at $44,516.16, Accessories at $41,936.78, Paper at $34,053.10, and Binders at $30,221.48. All five clear the $30,000 profit mark. Copiers alone account for nearly 20% of total business profit despite being a single sub-category, a concentration that makes their consistent performance critical to the business's overall financial health.
-![Top-Performing Sub-Category](Images/07_top_peforming_sub-category.png)
+![Top-Performing Sub-Category](Images/07_top_performing_sub-category.png)
 
 ### 8. Profitability Check
 All three product categories clear the $10,000 profit threshold: Technology at $145,455.54, Office Supplies at $122,489.95, and Furniture at $18,451.10. While all three pass the filter, the Furniture result sits at barely one-eighth of Technology's profit despite comparable sales volume. Furniture technically qualifies as profitable but is the weakest performer by a significant margin and should not be treated on equal footing with the other two categories in strategic planning.
