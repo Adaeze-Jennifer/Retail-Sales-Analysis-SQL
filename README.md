@@ -37,12 +37,18 @@ Data cleaning was minimal, as the dataset was largely well-structured and consis
 
 Initial validation was performed in Excel to check for missing values, duplicates, and inconsistencies. Key fields such as quantity, sales and profit-related attributes were found to be complete and valid.
 
- Within SQL, minor data preparation steps wre carried out to ensure analytical accuracy. The 'Sales' and 'Profit' columns were converted to DECIMAL(10,2) to maintain numerical precision during aggregation and calculation.
+Within SQL, minor data preparation steps wre carried out to ensure analytical accuracy. The 'Sales' and 'Profit' columns were converted to DECIMAL(10,2) to maintain numerical precision during aggregation and calculation.
 
 Additionally, the 'sp_help' command was utilised to verify the table schema and coonfirm that all data types were correctly defined before analysis began
 
 ## 📈Key Findings
-### 1.Total Sales Performance
+### 1. Data Overview
+! [Data Overview](Images/01_data_overview.png)
+
+
+
+
+Total Sales Performance
 The business generated total sales of $2,297,200.65 against a total profit of $286,396.59 across all orders — a profit margin of approximately 12.5%. While the revenue figure is strong, the margin indicates that a significant portion of sales value is absorbed by costs, making profitability at the category and sub-category level a more useful lens for strategic decisions than total sales alone.
 
 
