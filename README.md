@@ -41,62 +41,49 @@ Initial validation was performed in Excel to check for missing values, duplicate
 
 Additionally, the 'sp_help' command was utilised to verify the table schema and coonfirm that all data types were correctly defined before analysis began
 
-## 📈Key Trends Discovered
-### 1. Overall Performance: 
-The business generated a total revenue of $32,866,573.74 across 149,970 units sold,
-establishing a strong top-line performance baseline across the analysis period.
+## 📈Key Findings
+### 1.Total Sales Performance
+The business generated total sales of $2,297,200.65 against a total profit of $286,396.59 across all orders — a profit margin of approximately 12.5%. While the revenue figure is strong, the margin indicates that a significant portion of sales value is absorbed by costs, making profitability at the category and sub-category level a more useful lens for strategic decisions than total sales alone.
 
- 
-### 2. Sales Trend Over Time: 
-Monthly revenue fluctuated between $1.27M and $1.45M with no consistent upward or 
-downward trajectory. A significant peak occurred in January 2023, followed by the sharpest dip 
-in February 2023. Sales recovered through mid-2023, then declined again toward year-end. The 
-irregular pattern suggests revenue is driven by seasonal demand or promotional activity rather 
-than steady organic growth.
 
-### 3. Category Performance:
-All six product categories performed within a narrow revenue band. Beauty led with $5,550,625, 
-followed by Books ($5,484,863), Fashion ($5,480,123), Home & Kitchen ($5,473,133), 
-Electronics ($5,470,594), and Sports at the bottom with $5,407,236. The gap between the highest 
-and lowest categories is only $143,000 indicating a well-diversified, balanced product 
-portfolio with no single dominant category.
 
-### 4. Regional Performance:
-The Middle East is the top-performing region with approximately $8.30M in revenue, followed 
-by North America ($8.28M), Asia ($8.18M), and Europe (~$8.11M). The revenue gap across all 
-four regions is approximately $189,500 reflecting a globally balanced customer base with no 
-single region dominating sales.
 
-### 5. Customer Purchasing Behaviour: 
-Order quantities are distributed almost perfectly even across all five levels — 1 qty (20.1%, 
-10,060 orders), 2 qtys (19.8%, 9,914 orders), 3 qtys (20.1%, 10,026 orders), 4 qtys (20.0%, 9,996 
-orders), and 5 qtys (20.0%, 10,004 orders). Customers show no tendency toward bulk or single
-unit purchasing, suggesting that quantity decisions are driven by individual product need or 
-pricing rather than a consistent buying habit.
 
-### 6. Relationship Analysis:
-The correlation between total revenue and quantity sold is 0.59.  A moderate positive 
-relationship. While higher quantities sold generally correspond with higher revenue, the 
-moderate score confirms that price per unit and discount levels also significantly influence 
-revenue outcomes.
+
+Regional Analysis
+All four regions were ranked in descending order, extending beyond the single result the brief required to enable direct comparison. West leads with $725,457.75 in total sales, followed by East at $678,781.30, Central at $501,239.77, and South at $391,721.83. The gap between West and South is substantial at over $333,000 — suggesting that either South is an underserved market with growth potential, or that the product mix resonates more strongly in western markets. This warrants further investigation before any regional resource allocation decisions are made.
+
+Product Category Performance
+Technology is the highest-grossing category at $836,154.02 in sales and $145,455.54 in profit. Furniture follows with $741,999.74 in sales but only $18,451.10 in profit — a striking contrast that reveals a serious margin problem. Office Supplies, despite being the lowest in sales at $719,046.89, delivers $122,489.95 in profit, outperforming Furniture by nearly seven times on profitability. Furniture is generating substantial revenue but retaining very little of it, which is the single most important cost structure issue surfaced in this analysis.
+
+Customer Segment Analysis
+Average sales per order are closely clustered across all three segments: Home Office leads at $240.97, Corporate follows at $233.82, and Consumer sits at $223.73. The narrow spread suggests that purchasing behaviour is relatively consistent across segments, with no single group dramatically outspending the others on a per-order basis. However, differences in order frequency and total volume across segments would require a further query to fully assess.
+
+High-Value Orders
+Filtering for orders above $1,000 and sorting in descending order surfaces the business's most commercially significant transactions. The top result is a Technology — Machines order by Sean Miller (Home Office segment, South region) valued at $22,638.48. The visible top ten are overwhelmingly Technology orders, with Copiers and Machines dominating and Binders appearing as the only Office Supplies sub-category in the high-value tier. This confirms that Technology drives not just the highest sales volume but also the largest individual transactions.
+
+Top Performing Sub-Categories
+The five most profitable sub-categories are Copiers at $55,617.88, Phones at $44,516.16, Accessories at $41,936.78, Paper at $34,053.10, and Binders at $30,221.48. All five clear the $30,000 profit mark. Copiers alone account for nearly 20% of total business profit despite being a single sub-category — a concentration that makes their consistent performance critical to the business's overall financial health.
+
+Profitability Check
+All three product categories clear the $10,000 profit threshold: Technology at $145,455.54, Office Supplies at $122,489.95, and Furniture at $18,451.10. While all three pass the filter, the Furniture result sits at barely one-eighth of Technology's profit despite comparable sales volume. Furniture technically qualifies as profitable but is the weakest performer by a significant margin and should not be treated on equal footing with the other two categories in strategic planning.
+
+Business Insights
+Furniture is the most urgent concern in this dataset. It ranks second in total sales yet delivers a profit margin of just 2.5% — compared to Technology at 17.4% and Office Supplies at 17%. That gap is not a rounding difference; it is a structural problem. A category generating $741,999.74 in revenue but retaining only $18,451.10 of it is actively consuming sales resource, operational capacity, and likely discount budget, while contributing minimally to the bottom line. Whether the root cause is supplier costs, aggressive discounting, or high return rates, management cannot treat Furniture as a performing category based on its sales rank alone.
+
+Technology is the business's most valuable asset across every measurable dimension — highest sales, highest profit, highest individual order values, and the dominant presence in the top sub-category profit rankings. Copiers alone generate $55,617.88 in profit, nearly 20% of the entire business's total profit from a single sub-category. That level of concentration is both a strength and a vulnerability. If Copier demand softens — through market saturation, competitor pricing, or product cycle changes — the impact on overall profitability would be immediate and significant. Management should be building depth in the other high-performing sub-categories rather than relying on Copiers to carry a disproportionate share.
+
+The high-value orders result adds an important dimension to the regional picture. The single highest transaction — $22,638.48 — belongs to a Home Office customer in the South region. South ranks last in total sales, yet it surfaces in the highest individual order. This suggests that South's low aggregate performance may be masking a smaller but high-spending customer base that is currently underserved. A targeted high-value account strategy in South could unlock disproportionate returns relative to the acquisition investment required.
+Average order value across all three customer segments sits within a $17 range — Home Office at $240.97, Corporate at $233.82, Consumer at $223.73. The segments are effectively indistinguishable on a per-order basis. This means that any revenue difference between segments is driven entirely by order frequency and total transaction volume, not by how much each type of customer spends when they do buy. Management should prioritise increasing purchase frequency across all segments rather than trying to push average order value higher.
+
+Notable Trends
+The business's profit architecture is built almost entirely on two of its three product categories. Technology and Office Supplies together account for $267,945.49 of the $286,396.59 total profit — leaving Furniture responsible for just $18,451.10. This is not a balanced portfolio. It means the business's financial health is structurally dependent on Technology and Office Supplies performing consistently, with Furniture adding sales volume but not meaningful profit contribution.
+All five top-performing sub-categories belong to either Technology or Office Supplies. Furniture does not appear once in the profitability rankings despite being the second-highest category by sales. The pattern is consistent and directional — Furniture sells, but it does not earn. Until that changes, it should be deprioritised in promotional and inventory investment decisions.
+The West-to-South regional gap of over $333,000 in total sales is the largest geographic disparity in the dataset and the most actionable. Since average order values are consistent across customer segments, the gap is almost certainly a volume problem — fewer customers, fewer orders, or both — rather than a difference in how much South customers spend per transaction. That makes it a solvable acquisition and coverage problem, not a demand problem, and the most straightforward geographic growth lever available to the business.
+
 
 ## 💡Insights & Recommendations
-- Diversification is a strength but also a risk. The near-equal performance across all categories 
-and regions means no single segment can be relied upon as a growth engine. The business needs 
-a deliberate strategy to identify and accelerate its highest-potential segment. 
-
-- Seasonal volatility requires attention. The sharp dips in February 2022 and February 2023 
-suggest a recurring post-peak slowdown. Targeted promotions or inventory adjustments during 
-low periods could smooth revenue fluctuations. 
-
-- Pricing strategy matters more than volume. Since quantity sold only moderately predicts 
-revenue (0.59), optimising price points and discount strategies will have a greater impact on 
-revenue growth than simply pushing for more units sold. 
-
-- Europe and Asia are growth opportunities. Both regions trail the Middle East and North 
-America by a narrow margin. Targeted regional campaigns could close this gap and meaningfully 
-lift overall revenue.
-
+-
 ## 📒Project Notebook 
 - [View Full Analysis ](https://github.com/Adaeze-Jennifer/Amazon-Sales-Performance-Analysis/blob/main/AMAZON%20SALES%20PERFORMANCE%20-%20PYTHON.ipynb) - This notebook presents a comprehensive analysis of Amazon sales data using Python.
 - [Back to Top](#amazon-sales-performance-analysis-report) - Project Overview and Documentation
