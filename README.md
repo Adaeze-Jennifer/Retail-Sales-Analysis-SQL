@@ -9,38 +9,43 @@ The goal is to uncover actionable insights that can support strategic business d
 ## 📌Objectives
 - Explore and understand the structure of the retail sales dataset using SQL
 - Analyse key sales and profitability trends over time.
-- Identify key revenue drivers and hExplore the dataset using SQL
+- Identify key revenue drivers and high-performing product segments.
 - Evaluate performance across regions, product categories, and customer segments.
 - Generate data-driven insights to support business decision-making.
-- 
   
-
 ## ❓Business Questions
-- What is the overall sales performance in terms of total revenue and quantity sold?
-- How do sales trends evolve over time (monthly and yearly patterns)?
-- Which product categories generate the highest revenue?
-- What patterns can be observed in customer purchasing behaviour(order quantities, frequency)?
-- What relationships exist between sales and quantity?
+1. Data Overview: What does the dataset look like? Retrieve the first 10 records
+2. Total Sales Performance: What are the total sales and total profit across all orders?
+3. Regional Analysis: Which region generates the highest total sales?
+4. Product Category Performance: What are the total sales and profit by product category?
+5. Customer Segment Analysis: What is the Average sales per order for each customer segment?
+6. High-Value Orders: Which orders have sales greater than $1,000.00
+7. Top-Performing Sub-Categories: What are the top 5 sub-categories by total profit?
+8. Profitability Check: Which product categories have total profit greater than $10,000.00
 
 ## 📚Dataset Description
-- **Source:** Amazon sales dataset containing order-level 50,000 transaction data.
-- **Columns:** Product Category, Price, Disounted Price, Quantity Sold, Customer Region, Total Revenue, Order Date, etc 
+- **Source:** Retail Sales dataset.
+- **Columns:** Order_ID, Year, Order_Date, Month, Ship_Mode, Customer_ID, Customer_Name, Segment, City, State, Postal_Code, Region, 
+  Product_ID, Category, Sub_Category, Sales, Quantity, Profit 
 
 ## 🛠Tools & Technologies Used
-- Python (Pandas, Numpy, Matplotlib, Seaborn)
-- Jupyter Notebook
-- Excel for data cleaning
+- Microsoft SQL Server - Used for data querying, transformation, and Exploratory Data Analysis (EDA).
+- Microsoft Excel - Used for initial data validation and preliminary inspection.
   
-## 🧹Data Cleaning Steps
-- Handled missing and incorrect values before importing into pandas.
-- Converted date columns to appropriate datetime formats for analysis
-- Ensured correct data types across all 13 columns.
+## 🧹Data Cleaning and Preparation
+Data cleaning was minimal, as the dataset was largely well-structured and consistent.
 
+Initial validation was performed in Excel to check for missing values, duplicates, and inconsistencies. Key fields such as quantity, sales and profit-related attributes were found to be complete and valid.
+
+ Within SQL, minor data preparation steps wre carried out to ensure analytical accuracy. The 'Sales' and 'Profit' columns were converted to DECIMAL(10,2) to maintain numerical precision during aggregation and calculation.
+
+Additionally, the 'sp_help' command was utilised to verify the table schea and coonfirm that all data types were correctly defined before analysis began
 
 ## 📈Key Trends Discovered
 ### 1. Overall Performance: 
 The business generated a total revenue of $32,866,573.74 across 149,970 units sold,
 establishing a strong top-line performance baseline across the analysis period.
+
  
 ### 2. Sales Trend Over Time: 
 Monthly revenue fluctuated between $1.27M and $1.45M with no consistent upward or 
