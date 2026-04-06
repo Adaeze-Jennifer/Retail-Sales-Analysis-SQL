@@ -43,7 +43,7 @@ Additionally, the 'sp_help' command was utilised to verify the table schema and 
 
 ## 📈Key Findings
 ### 1. Data Overview
-! [Data Overview](Images/01_data_overview.png)
+![Data Overview](Images/01_data_overview.png)
 
 
 
