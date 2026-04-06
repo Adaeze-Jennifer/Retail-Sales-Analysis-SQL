@@ -82,12 +82,14 @@ All three product categories clear the $10,000 profit threshold: Technology at $
 
 **📌Average order value across all three customer segments sits within a $17 range.** Home Office at $240.97, Corporate at $233.82, Consumer at $223.73. The segments are effectively indistinguishable on a per-order basis. This means that any revenue difference between segments is driven entirely by order frequency and total transaction volume, not by how much each type of customer spends when they do buy. Management should prioritise increasing purchase frequency across all segments rather than trying to push average order value higher.
 
-## 💡📈Notable Trends and Recommendations
+## 📉Notable Trends
 The business's profit architecture is built almost entirely on two of its three product categories. Technology and Office Supplies together account for $267,945.49 of the $286,396.59 total profit, leaving Furniture responsible for just $18,451.10. This is not a balanced portfolio. It means the business's financial health is structurally dependent on Technology and Office Supplies performing consistently, with Furniture adding sales volume but not meaningful profit contribution.
 
 All five top-performing sub-categories belong to either Technology or Office Supplies. Furniture does not appear once in the profitability rankings despite being the second-highest category by sales. The pattern is consistent and directional. Furniture sells, but it does not earn. Until that changes, it should be deprioritised in promotional and inventory investment decisions.
 
 The West-to-South regional gap of over $333,000 in total sales is the largest geographic disparity in the dataset and the most actionable. Since average order values are consistent across customer segments, the gap is almost certainly a volume problem —> fewer customers, fewer orders, or both — rather than a difference in how much South customers spend per transaction. That makes it a solvable acquisition and coverage problem, not a demand problem, and the most straightforward geographic growth lever available to the business.
+
+## 💡Recommendations
 
 ## 📒Project Notebook 
 - [View Full Analysis ](https://github.com/Adaeze-Jennifer/Amazon-Sales-Performance-Analysis/blob/main/AMAZON%20SALES%20PERFORMANCE%20-%20PYTHON.ipynb) - This notebook presents a comprehensive analysis of Amazon sales data using Python.
