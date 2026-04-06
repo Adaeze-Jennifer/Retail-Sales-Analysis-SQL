@@ -24,7 +24,7 @@ The goal is to uncover actionable insights that can support strategic business d
 8. Profitability Check: Which product categories have total profit greater than $10,000.00?
 
 ## 📚Dataset Description
-- **Source:** Retail Sales dataset.
+- **Source:** Sample retail Sales dataset containing transactional data on orders, customers, products, and revenue used for SQL-based EDA.
 - **Columns:** Order_ID, Year, Order_Date, Month, Ship_Mode, Customer_ID, Customer_Name, Segment, City, State, Postal_Code, Region, 
   Product_ID, Category, Sub_Category, Sales, Quantity, Profit 
 
