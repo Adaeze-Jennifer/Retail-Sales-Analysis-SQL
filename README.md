@@ -21,7 +21,7 @@ The goal is to uncover actionable insights that can support strategic business d
 5. Customer Segment Analysis: What is the Average sales per order for each customer segment?
 6. High-Value Orders: Which orders have sales greater than $1,000.00
 7. Top-Performing Sub-Categories: What are the top 5 sub-categories by total profit?
-8. Profitability Check: Which product categories have total profit greater than $10,000.00
+8. Profitability Check: Which product categories have total profit greater than $10,000.00?
 
 ## 📚Dataset Description
 - **Source:** Retail Sales dataset.
@@ -39,7 +39,7 @@ Initial validation was performed in Excel to check for missing values, duplicate
 
  Within SQL, minor data preparation steps wre carried out to ensure analytical accuracy. The 'Sales' and 'Profit' columns were converted to DECIMAL(10,2) to maintain numerical precision during aggregation and calculation.
 
-Additionally, the 'sp_help' command was utilised to verify the table schea and coonfirm that all data types were correctly defined before analysis began
+Additionally, the 'sp_help' command was utilised to verify the table schema and coonfirm that all data types were correctly defined before analysis began
 
 ## 📈Key Trends Discovered
 ### 1. Overall Performance: 
