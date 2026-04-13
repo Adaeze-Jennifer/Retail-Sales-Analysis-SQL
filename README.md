@@ -1,8 +1,8 @@
-# 📊 Retail Sales Analysis SQL (EDA)
-This analysis was conducted on a retail sales dataset containing information on order, customer, product, and across multiple regions, product categories, and customer segments. 
+  # 📊 Retail Sales Analysis SQL (EDA)
+This analysis was conducted on a retail sales dataset containing information on order, customers, products, and revenue across multiple regions, product categories, and customer segments. 
 
 ## 🔍Overview
-This project performs Exploratory Data Analysis (EDA) on Retail sales data using SQL. Eight SQL queries were developed to answer key business questions related to overall performance, sales trends, regional distrinution, product profitability, customer segmentation, high-value transactions, sub-category rankings, and profitability thresholds. 
+This project performs Exploratory Data Analysis (EDA) on Retail sales data using SQL. Eight SQL queries were developed to answer key business questions related to overall performance, sales trends, regional distribution, product profitability, customer segmentation, high-value transactions, sub-category rankings, and profitability thresholds. 
 
 The goal is to uncover actionable insights that can support strategic business decision-making.
 
@@ -37,12 +37,13 @@ Data cleaning was minimal, as the dataset was largely well-structured and consis
 
 Initial validation was performed in Excel to check for missing values, duplicates, and inconsistencies. Key fields such as quantity, sales and profit-related attributes were found to be complete and valid.
 
-Within SQL, minor data preparation steps wre carried out to ensure analytical accuracy. The 'Sales' and 'Profit' columns were converted to DECIMAL(10,2) to maintain numerical precision during aggregation and calculation.
+Within SQL, minor data preparation steps wre carried out to ensure analytical accuracy. The 'Sales' and 'Profit' columns were converted to DECIMAL(10,2) to maintain numerical precision during aggregation and calculations.
 
-Additionally, the 'sp_help' command was utilised to verify the table schema and confirm that all data types were correctly defined before analysis began
+Additionally, the 'sp_help' command was utilised to verify the table schema and confirm that all data types were correctly defined before analysis began.
 
 ## 📈Key Findings
 ### 1. Data Overview
+The first 10 records of the dataset were retrieved to understand its structure, column composition, and data types. This step provides a foundational view of how the data isorganised before deeper analysis is performed.
 ![Data Overview](Images/01_data_overview.png)
 
 ### 2. Total Sales Performance
@@ -50,7 +51,7 @@ The business generated total sales of $2,297,200.65 against a total profit of $2
 ![Total Sales Performance](Images/02_total_sales_performance.png)
 
 ### 3. Regional Analysis
-All four regions were ranked in descending order, extending beyond the single result the brief required to enable direct comparison. West leads with $725,457.75 in total sales, followed by East at $678,781.30, Central at $501,239.77, and South at $391,721.83. The gap between West and South is substantial at over $333,000  suggesting that either South is an underserved market with growth potential, or that the product mix resonates more strongly in western markets. This warrants further investigation before any regional resource allocation decisions are made.
+All four regions were ranked in descending order, expanding beyond the single result the brief required to enable direct comparison. West leads with $725,457.75 in total sales, followed by East at $678,781.30, Central at $501,239.77, and South at $391,721.83. The gap between West and South is substantial at over $333,000  suggesting that either South is an underserved market with growth potential, or that the product mix resonates more strongly in western markets. This warrants further investigation before any regional resource allocation decisions are made.
 ![Regional Analysis](Images/03_regional_sales_performance.png)
 
 ### 4. Product Category Performance
@@ -62,7 +63,7 @@ Average sales per order are closely clustered across all three segments: Home Of
 ![Customer Segment Analysis](Images/05_customer_segment_analysis.png)
 
 ### 6. High-Value Orders
-Filtering for orders above $1,000 and sorting in descending order surfaces the business's most commercially significant transactions. The top result is a Technology — Machines order by Sean Miller (Home Office segment, South region) valued at $22,638.48. The visible top ten are overwhelmingly Technology orders, with Copiers and Machines dominating and Binders appearing as the only Office Supplies sub-category in the high-value tier. This confirms that Technology drives not just the highest sales volume but also the largest individual transactions.
+Filtering for orders above $1,000 and sorting in descending order surfaces the business's most commercially significant transactions. The top result is a Technology —> Machines order by Sean Miller (Home Office segment, South region) valued at $22,638.48. The top ten results are overwhelmingly Technology orders, with Copiers and Machines dominating and Binders appearing as the only Office Supplies sub-category in the high-value tier. This confirms that Technology drives not just the highest sales volume but also the largest individual transactions.
 ![High-Value Orders](Images/06_high_value_orders.png)
 
 ### 7. Top Performing Sub-Categories
@@ -87,9 +88,19 @@ The business's profit architecture is built almost entirely on two of its three 
 
 All five top-performing sub-categories belong to either Technology or Office Supplies. Furniture does not appear once in the profitability rankings despite being the second-highest category by sales. The pattern is consistent and directional. Furniture sells, but it does not earn. Until that changes, it should be deprioritised in promotional and inventory investment decisions.
 
-The West-to-South regional gap of over $333,000 in total sales is the largest geographic disparity in the dataset and the most actionable. Since average order values are consistent across customer segments, the gap is almost certainly a volume problem —> fewer customers, fewer orders, or both — rather than a difference in how much South customers spend per transaction. That makes it a solvable acquisition and coverage problem, not a demand problem, and the most straightforward geographic growth lever available to the business.
+The West-to-South regional gap of over $333,000 in total sales is the largest geographic disparity in the dataset and the most actionable. Since average order values are consistent across customer segments, the gap is almost certainly a volume problem —> fewer customers or fewer orders, or both — rather than a difference in how much South customers spend per transaction. That makes it a solvable acquisition and coverage problem, not a demand problem, and the most straightforward geographic growth lever available to the business.
 
 ## 💡Recommendations
+- **Address Furniture Profitability:** Conduct a cost and pricing review for the Furniture category to identify the root cause of low margins. Consider reducing discounting, renegotiating supplier costs, or discontinuing consistently underperforming sub-categories.
+
+- **Leverage Technology Strength:** Increase investment in high-performing Technology sub-categories such as Copiers and Phones, while also diversifying to reduce over-reliance on a single product line.
+
+- **Expand in Underperforming Regions:** Focus customer acquisition and market expansion efforts in the South region, where lower sales appear to be driven by volume rather than spending behaviour.
+
+- **Increase Customer Purchase Frequency:** Since average order value is consistent across segments, implement strategies such as loyalty programs, targeted promotions, and retention campaigns to drive repeat purchases.
+
+- **Optimise Product Mix:** Prioritise inventory and marketing resources toward high-margin categories like Technology and Office Supplies, while reassessing the strategic role of low-margin categories.
+
 
 ## 📒Project Notebook 
 - [View Full Analysis](https://github.com/Adaeze-Jennifer/Retail-Sales-Analysis-SQL/tree/main/sql_queries) - A comprehensive SQL-based analysis of retail sales data
