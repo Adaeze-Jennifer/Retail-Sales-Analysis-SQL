@@ -39,7 +39,7 @@ Initial validation was performed in Excel to check for missing values, duplicate
 
 Within SQL, minor data preparation steps wre carried out to ensure analytical accuracy. The 'Sales' and 'Profit' columns were converted to DECIMAL(10,2) to maintain numerical precision during aggregation and calculation.
 
-Additionally, the 'sp_help' command was utilised to verify the table schema and coonfirm that all data types were correctly defined before analysis began
+Additionally, the 'sp_help' command was utilised to verify the table schema and confirm that all data types were correctly defined before analysis began
 
 ## 📈Key Findings
 ### 1. Data Overview
