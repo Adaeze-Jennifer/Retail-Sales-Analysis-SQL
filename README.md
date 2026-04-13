@@ -92,5 +92,5 @@ The West-to-South regional gap of over $333,000 in total sales is the largest ge
 ## 💡Recommendations
 
 ## 📒Project Notebook 
-- [View Full Analysis ](https://github.com/Adaeze-Jennifer/Amazon-Sales-Performance-Analysis/blob/main/AMAZON%20SALES%20PERFORMANCE%20-%20PYTHON.ipynb) - This notebook presents a comprehensive analysis of Amazon sales data using Python.
+- [View Full Analysis ](https://github.com/Adaeze-Jennifer/Retail-Sales-Analysis-SQL/tree/main/sql_queries)) - This notebook presents a comprehensive analysis of Retail Sales queries data using SQL
 - [Back to Top](#amazon-sales-performance-analysis-report) - Project Overview and Documentation
