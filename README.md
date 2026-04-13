@@ -26,7 +26,7 @@ The goal is to uncover actionable insights that can support strategic business d
 ## 📚Dataset Description
 - **Source:** Sample retail Sales dataset containing transactional data on orders, customers, products, and revenue used for SQL-based EDA.
 - **Columns:** Order_ID, Year, Order_Date, Month, Ship_Mode, Customer_ID, Customer_Name, Segment, City, State, Postal_Code, Region, 
-  Product_ID, Category, Sub_Category, Sales, Quantity, Profit 
+  Product_ID, Category, Sub_Category, Sales, Quantity, Profit. 
 
 ## 🛠Tools & Technologies Used
 - Microsoft SQL Server - Used for data querying, transformation, and Exploratory Data Analysis (EDA).
@@ -43,7 +43,7 @@ Additionally, the 'sp_help' command was utilised to verify the table schema and 
 
 ## 📈Key Findings
 ### 1. Data Overview
-The first 10 records of the dataset were retrieved to understand its structure, column composition, and data types. This step provides a foundational view of how the data isorganised before deeper analysis is performed.
+The first 10 records of the dataset were retrieved to understand its structure, column composition, and data types. This step provides a foundational view of how the data is organised before deeper analysis is performed.
 ![Data Overview](Images/01_data_overview.png)
 
 ### 2. Total Sales Performance
