@@ -37,7 +37,7 @@ Data cleaning was minimal, as the dataset was largely well-structured and consis
 
 Initial validation was performed in Excel to check for missing values, duplicates, and inconsistencies. Key fields such as quantity, sales and profit-related attributes were found to be complete and valid.
 
-Within SQL, minor data preparation steps wre carried out to ensure analytical accuracy. The 'Sales' and 'Profit' columns were converted to DECIMAL(10,2) to maintain numerical precision during aggregation and calculations.
+Within SQL, minor data preparation steps were carried out to ensure analytical accuracy. The 'Sales' and 'Profit' columns were converted to DECIMAL(10,2) to maintain numerical precision during aggregation and calculations.
 
 Additionally, the 'sp_help' command was utilised to verify the table schema and confirm that all data types were correctly defined before analysis began.
 
