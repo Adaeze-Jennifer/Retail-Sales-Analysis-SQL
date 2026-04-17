@@ -1,4 +1,4 @@
-  # 📊 Retail Sales Analysis SQL (EDA)
+# 📊 Retail Sales Analysis SQL (EDA)
 This analysis was conducted on a retail sales dataset containing information on order, customers, products, and revenue across multiple regions, product categories, and customer segments. 
 
 ## 🔍Overview
@@ -103,5 +103,6 @@ The West-to-South regional gap of over $333,000 in total sales is the largest ge
 
 
 ## 📒Project Notebook 
-- [View Full Analysis](https://github.com/Adaeze-Jennifer/Retail-Sales-Analysis-SQL/tree/main/sql_queries) - A comprehensive SQL-based analysis of retail sales data
-- [Back to Top](#Retail-Sales-Analysis-SQL) - Project Overview and Documentation
+- [**View Full Analysis**](https://github.com/Adaeze-Jennifer/Retail-Sales-Analysis-SQL/tree/main/sql_queries) - A comprehensive SQL-based analysis of retail sales data.
+- [**View Full Repository**](https://github.com/Adaeze-Jennifer/Retail-Sales-Analysis-SQL) - Full documentation, insights, and project breakdown.
+- [_Back to Top_](#Retail-Sales-Analysis-SQL) - Project overview and documentation.
